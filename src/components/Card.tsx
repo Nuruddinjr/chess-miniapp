@@ -15,7 +15,7 @@ import friendIcon from "../../public/friendship.png";
 import tournamentIcon from "../../public/trophy.png";
 import variantsIcon from "../../public/strategy.png";
 import GameModeComponent from "./GameModeComponent";
-import { useRouter } from "next/router";
+import { useRouter } from "next/navigation";
 
 export function PlayCard() {
   const gameModeData = [
