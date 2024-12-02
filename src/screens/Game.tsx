@@ -47,7 +47,7 @@ import { Waitopponent } from "@/components/ui/waitopponent";
 import { ShareGame } from "../components/ShareGame";
 import ExitGameModel from "@/components/ExitGameModel";
 import { useParams } from "next/navigation";
-import { useRouter } from "next/router";
+import { useRouter } from "next/navigation";
 import { useUser } from "@/hooks/useUser";
 
 export interface Metadata {

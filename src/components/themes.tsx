@@ -1,8 +1,6 @@
 import { THEMES_DATA } from "@/constants/themes";
-import { useThemeContext } from "@/hooks/useThemes";
 
 export function Themes() {
-  const { updateTheme } = useThemeContext();
   return (
     <div className="flex-1 bg-bgAuxiliary1 py-12 px-10">
       <div className="grid grid-cols-1 gap-8">
@@ -12,9 +10,6 @@ export function Themes() {
               key={theme.id}
               className="p-4 flex items-start justify-between cursor-pointer"
               style={{ backgroundColor: theme.background }}
-              onClick={() => {
-                updateTheme(theme.name);
-              }}
             >
               <div>
                 <h2 className="text-lg capitalize">{theme.name}</h2>

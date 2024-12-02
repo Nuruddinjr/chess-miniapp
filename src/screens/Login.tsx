@@ -2,7 +2,7 @@
 
 import { useRef } from "react";
 import { useRecoilState } from "recoil";
-import { useRouter } from "next/router";
+import { useRouter } from "next/navigation";
 import { userAtom } from "@/atoms/user";
 
 const BACKEND_URL = "http://localhost:3000";

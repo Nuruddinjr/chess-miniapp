@@ -3,7 +3,9 @@ import { Footer } from "@/components/Footer";
 import { THEMES_DATA } from "@/constants/themes";
 
 export const Landing = () => {
-  const currentTheme = THEMES_DATA.find((data) => data.name === "dark");
+  const currentTheme = THEMES_DATA.find(
+    (data) => data?.name === ("dark" as any)
+  );
   return (
     <>
       <div className="max-w-full mt-0">

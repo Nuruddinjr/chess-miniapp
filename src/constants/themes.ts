@@ -1,8 +1,6 @@
-import { THEME } from "@/context/themeContext";
-
 type THEME_DATA = {
   id: number;
-  name: THEME;
+  name: "THEME";
   background: string;
   "board-light": string;
   "board-dark": string;
@@ -12,7 +10,7 @@ type THEME_DATA = {
 export const THEMES_DATA: THEME_DATA[] = [
   {
     id: 1,
-    name: "default",
+    name: "default" as any,
     background: "#302E2B",
     "board-light": "#EBECD0",
     "board-dark": "#739552",

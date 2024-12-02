@@ -2,7 +2,7 @@
 
 import { MobileSidebar } from "@/components/mobile-sidebar";
 import { Button } from "./ui/button";
-import { useRouter } from "next/router";
+import { useRouter } from "next/navigation";
 
 export default function Navbar() {
   const navigate = useRouter();
